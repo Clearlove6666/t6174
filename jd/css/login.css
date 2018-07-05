@@ -64,6 +64,7 @@ footer {
     height: 500px;
     background-color: #17a4ae;
     margin-bottom: 20px;
+
 }
 
 .links a {
@@ -268,6 +269,10 @@ footer {
     margin-left: 11px;
     background: url("../images/pwd-icons-new.png") no-repeat;
 }
+.userdeep{
+    background:url("../images/pwd-icons-new.png");
+    background-position:0px -48px;
+}
 .password .ptu{
     position: absolute;
     top:199px;
@@ -277,4 +282,66 @@ footer {
     margin-left: 11px;
     background: url("../images/pwd-icons-new.png");
     background-position: 73px 0px ;
+}
+.pwddeep{
+    background: url("../images/pwd-icons-new.png");
+    background-position: 73px -48px ;
+}
+.deltext{
+    height: 18px;
+    width: 18px;
+    float: right;
+    background-image: url("../images/x.png");
+    background-repeat:no-repeat ;
+    display: none;
+}
+.user .deltext{
+    position:absolute;
+    top: 140px;
+    right: 14px;
+}
+.password .deltext{
+    position:absolute;
+    top: 210px;
+    right: 14px;
+}
+.login .prompt{
+     position: absolute;
+     top:100px;
+     left: 10px;
+     width: 306px;
+     height: 22px;
+     background-color: #ffebeb;
+     display: none;
+ }
+.login .prompt .jg{
+    float: left;
+    width: 20px;
+    height: 22px;
+    margin-left: 8px;
+    background-image: url("../images/pwd-icons-new.png");
+    background-position: -101px -45px;
+}
+.login .prompt span{
+    line-height: 22px;
+    padding-left: 15px;
+    color: red;
+}
+.identifying .ytext{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 168px;
+    height: 30px;
+}
+.identifying img{
+    width: 80px;
+    height: 33px;
+}
+.identifying a{
+    position: absolute;
+    top: 265px;
+    right: 20px;
+}
+.identifying{
+    display: none;
 }
